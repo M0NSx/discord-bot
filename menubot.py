@@ -15,6 +15,8 @@ async def on_ready():
 
 @bot.command()
 async def BrookhavenPlayers(ctx):
+    url = "https://www.roblox.com/games/4924922222/Brookhaven-RP"
+
 
 @bot.command()
 async def TSBPlayers(ctx):
