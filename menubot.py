@@ -42,6 +42,9 @@ async def royalehighPlayers(ctx):
                 await ctx.reply("Unable to get the number of players at the moment.")
 
 @bot.command()
+
+
+@bot.command()
 async def rules(ctx):
     await ctx.reply(f"1. Do not spam on the chat 2. Do not send memes")
 
