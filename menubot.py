@@ -14,6 +14,7 @@ async def on_ready():
     print(f"bot connected as {bot.user.name}")
 
 @bot.command()
+async def TSBPlayers(ctx):
 
 
 @bot.command()
