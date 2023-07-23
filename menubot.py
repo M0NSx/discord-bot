@@ -14,6 +14,9 @@ async def on_ready():
     print(f"bot connected as {bot.user.name}")
 
 @bot.command()
+
+
+@bot.command()
 async def playersMM2(ctx):
     url = "https://www.roblox.com/games/142823291/Murder-Mystery-2"
     async with aiohttp.ClientSession() as session:
