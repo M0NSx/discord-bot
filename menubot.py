@@ -14,6 +14,9 @@ async def on_ready():
     print(f"bot connected as {bot.user.name}")
 
 @bot.command()
+async def BrookhavenPlayers(ctx):
+
+@bot.command()
 async def TSBPlayers(ctx):
     url = "https://www.roblox.com/games/10449761463/The-Strongest-Battlegrounds"
     async with aiohttp.ClientSession() as session:
