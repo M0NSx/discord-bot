@@ -42,6 +42,7 @@ async def royalehighPlayers(ctx):
                 await ctx.reply("Unable to get the number of players at the moment.")
 
 @bot.command()
+async def BloxFruitsPlayers(ctx):
 
 
 @bot.command()
