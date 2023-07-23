@@ -43,6 +43,7 @@ async def royalehighPlayers(ctx):
 
 @bot.command()
 async def BloxFruitsPlayers(ctx):
+    url = "https://www.roblox.com/games/2753915549/Blox-Fruits"
 
 
 @bot.command()
