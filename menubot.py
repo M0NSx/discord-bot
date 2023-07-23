@@ -16,6 +16,7 @@ async def on_ready():
 @bot.command()
 async def TSBPlayers(ctx):
     url = "https://www.roblox.com/games/10449761463/The-Strongest-Battlegrounds"
+    async with aiohttp.ClientSession() as session:
 
 
 @bot.command()
