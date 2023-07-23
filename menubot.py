@@ -17,6 +17,7 @@ async def on_ready():
 async def BrookhavenPlayers(ctx):
     url = "https://www.roblox.com/games/4924922222/Brookhaven-RP"
     async with aiohttp.ClientSession() as session:
+        async with session.get(url) as resp:
 
 
 @bot.command()
