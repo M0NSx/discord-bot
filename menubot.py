@@ -47,6 +47,7 @@ async def BloxFruitsPlayers(ctx):
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as resp:
             if resp.status == 200:
+                html = await resp.text()
 
 
 @bot.command()
