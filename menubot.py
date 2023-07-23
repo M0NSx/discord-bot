@@ -45,6 +45,7 @@ async def royalehighPlayers(ctx):
 async def BloxFruitsPlayers(ctx):
     url = "https://www.roblox.com/games/2753915549/Blox-Fruits"
     async with aiohttp.ClientSession() as session:
+        async with session.get(url) as resp:
 
 
 @bot.command()
