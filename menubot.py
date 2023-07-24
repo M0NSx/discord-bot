@@ -89,7 +89,7 @@ async def rules(ctx):
 
 @bot.command()
 async def commands(ctx):
-    await ctx.reply(f"!rules !playersMM2 !royalehighPlayers !BloxFruitsPlayers !TSBPlayers")
+    await ctx.reply(f"!rules !playersMM2 !royalehighPlayers !BloxFruitsPlayers !TSBPlayers !BrookhavenPlayers")
 
 
 bot.run("MTExODMxMzAyMzkyMTE5Mjk2MQ.GGE1T9.bi8d9BgRiRvpTbv-yqwQUM7OyyRmQq_kbyQBAE")
